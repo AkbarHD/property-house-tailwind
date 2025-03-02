@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     @apply font-secondary text-[22px] text-secondary;
 }
+
 
 a {
     @apply text-[20px] hover:text-accent transition-all duration-300;
@@ -40,7 +45,7 @@ h6 {
 }
 
 .btn-accent {
-    @apply bg-accent hover:bg-accent-hover;         
+    @apply bg-accent hover:bg-accent-hover;
 }
 
 .nav-is-open {
